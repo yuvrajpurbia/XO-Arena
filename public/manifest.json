@@ -2,19 +2,19 @@
     "name": "XO Arena TicTacToe Pro",
     "short_name": "XO Arena",
     "description": "A high-fidelity, Fluent Design TicTacToe experience featuring reactive character entities and an unbeatable Grandmaster AI.",
+    "id": "/?source=pwa",
     "start_url": "/",
+    "scope": "/",
     "display": "standalone",
-    "display_override": [
-        "window-controls-overlay"
-    ],
     "background_color": "#0f172a",
     "theme_color": "#0f172a",
+    "lang": "en",
+    "dir": "ltr",
     "categories": [
         "games",
-        "strategy",
-        "utilities"
+        "strategy"
     ],
-    "orientation": "portrait-primary",
+    "orientation": "any",
     "icons": [
         {
             "src": "icons/icon-192.png",
@@ -32,15 +32,12 @@
     "screenshots": [
         {
             "src": "screenshots/desktop.png",
-            "sizes": "1920x1080",
+            "sizes": "1280x720",
             "type": "image/png",
             "form_factor": "wide"
-        },
-        {
-            "src": "screenshots/mobile.png",
-            "sizes": "1080x1920",
-            "type": "image/png",
-            "form_factor": "narrow"
         }
-    ]
+    ],
+    "iarc_rating_id": "",
+    "related_applications": [],
+    "prefer_related_applications": false
 }
